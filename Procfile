@@ -1,0 +1,1 @@
+web: gunicorn favicon_gen.wsgi --log-file -
