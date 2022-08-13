@@ -14,7 +14,7 @@ urlpatterns = [
                             path('forgetPassword/', views.forgetPassword, name='forgetPassword'),
                                 path('documentation/', views.documentation, name='documentation'),
                                   #restricted
-                                     path('homepage/', views.homepage, name='homepage'),
+                                     path('homepage/', views.homepage, name='homepage'), 
                                         path('drafts/', views.drafts, name='drafts'),
                                             path('settings/', views.settings, name='settings'),
                                                 path('generatorByUpload/', views.generatorByUpload, name='generatorByUpload'),
