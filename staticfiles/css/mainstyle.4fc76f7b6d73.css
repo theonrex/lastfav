@@ -2,7 +2,7 @@
 body {
   font-family: "DM Sans", "sans-serif";
   color: #000;
-  background-color: rgb(255, 253, 253);
+  background-color: rgba(255, 253, 253, 0.267);
 }
 
 .dark-mode .home-nav-bg,
@@ -1632,4 +1632,4 @@ hr {
 
 .auth-home {
   background-color: white;
-}/*# sourceMappingURL=mainstyle.css.map */
+}/*# sourceMappingURL=mainstyle.4fc76f7b6d73.css.map */

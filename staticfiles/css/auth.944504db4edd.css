@@ -1,5 +1,5 @@
 .dark-mode {
-  background-image: url(../images/darnimg.png);
+  background-image: url(../images/light.png);
   color: white !important;
 }
 
@@ -27,7 +27,7 @@
 }
 
 body {
-  background-image: url(../images/Resetpage.png);
+  background-image: url(../images/reset.png);
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -261,4 +261,4 @@ span a {
     margin: auto;
     position: inherit;
   }
-}/*# sourceMappingURL=auth.css.map */
+}/*# sourceMappingURL=auth.944504db4edd.css.map */

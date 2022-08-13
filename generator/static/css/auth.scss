@@ -1,5 +1,3 @@
-
-
 $font: 'DM Sans', 'sans-serif';
 $gray: #eeeeee;
 $strongBlue: #16212A;
@@ -12,7 +10,8 @@ $darkgrad: linear-gradient(180deg, #21313F 0%, rgba(33, 49, 63, 0.95) 59.26%);
 
 //darkmode
 .dark-mode {
-    background-image: url(../images/HIFI\ Sign\ in\ desktop\ \(Light\ mode\).png);    color: white !important;
+    background-image: url(../images/darnimg.png);
+    color: white !important;
 }
 
 
@@ -20,8 +19,9 @@ $darkgrad: linear-gradient(180deg, #21313F 0%, rgba(33, 49, 63, 0.95) 59.26%);
     background-color: transparent !important;
     color: white !important;
 }
+
 .dark-mode .auth-hr {
-   
+
     color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
 }
@@ -29,7 +29,8 @@ $darkgrad: linear-gradient(180deg, #21313F 0%, rgba(33, 49, 63, 0.95) 59.26%);
 .dark-mode .navbar img {
     filter: invert(1);
 }
-.dark-mode form{
+
+.dark-mode form {
     background-color: $strongBlue;
     color: white !important;
 }
@@ -41,15 +42,17 @@ $darkgrad: linear-gradient(180deg, #21313F 0%, rgba(33, 49, 63, 0.95) 59.26%);
 //login styles
 
 body {
-background-image: url(../images/Reset\ password\ page.png);
+    background-image: url(../images/Resetpage.png);
     width: 100%;
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.auth-nav{
+
+.auth-nav {
     background-color: transparent !important;
 }
+
 .head {
     margin-top: -25px;
 }
@@ -60,11 +63,12 @@ background-image: url(../images/Reset\ password\ page.png);
 }
 
 //forms
-.form-mg{
+.form-mg {
     width: 70%;
-right: 43px;
+    right: 43px;
     position: absolute;
 }
+
 input[type=text],
 select {
     width: 100%;
@@ -135,8 +139,8 @@ input[type=submit]:hover {
 
 .continue {
     background-color: transparent;
-border: 2px solid !important;
-font-size: 19px !important;
+    border: 2px solid !important;
+    font-size: 19px !important;
     color: #3f92bd !important;
 }
 
@@ -211,7 +215,7 @@ select {
     width: 100%;
     background-color: white;
     color: #3f92bd;
-    padding: 44px 20px 0 ;
+    padding: 44px 20px 0;
     margin: 44px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -244,26 +248,28 @@ span a {
     text-decoration: none;
     color: #3f92bd;
 }
+
 //Or
 .ot {
     text-align: center;
     color: white;
     height: 32px;
-        width: 32px;
-        font-size: 20px;
-        background-color: #3f92bd;
-        border-radius: 50%;
+    width: 32px;
+    font-size: 20px;
+    background-color: #3f92bd;
+    border-radius: 50%;
     left: 39%;
     right: 39%;
-        margin: auto;
-        position: absolute;
+    margin: auto;
+    position: absolute;
 }
-.dot h6{
+
+.dot h6 {
     margin: 0 !important;
-        margin-block-start: auto !important;
-            margin-block-end: auto !important;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
+    margin-block-start: auto !important;
+    margin-block-end: auto !important;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 // .dot {
@@ -277,15 +283,15 @@ span a {
 // }
 
 //horizontal line
-.hr-bg{
-}
-.auth-hr{
+.hr-bg {}
+
+.auth-hr {
     margin: 17px 0;
     height: 2px;
-    border-width:0;
+    border-width: 0;
     color: gray;
-        background-color: gray;
-        width:"100%";
+    background-color: gray;
+    width: "100%";
 }
 
 @media screen and (max-width : 1000px) {
@@ -303,7 +309,7 @@ span a {
 }
 
 @media screen and (max-width: 500px) {
-.form-mg {
+    .form-mg {
         width: 90%;
         right: 0px;
         margin: auto;
