@@ -13,6 +13,8 @@ import dj_database_url
 import django_heroku
 import os
 from pathlib import Path
+from decouple import config
+
 # from decouple import config
 
 
@@ -25,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-90yf1a%zp7s#3n2%!sui&yqx-rw(wg$b4d8)%d%0#iq4*8ktu#'
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -43,7 +45,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'generator.apps.GeneratorConfig'
+    'generator.apps.GeneratorConfig',
+    'social_django',
+
 
 ]
 
@@ -56,7 +60,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-        'livereload.middleware.LiveReloadScript',
+    'livereload.middleware.LiveReloadScript',
+    'social_django.middleware.SocialAuthExceptionMiddleware',
+
 
 ]
 
@@ -86,8 +92,8 @@ WSGI_APPLICATION = 'favicon_gen.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ciba',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
         
     }
 }
