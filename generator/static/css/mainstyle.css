@@ -11,6 +11,12 @@ body {
   background-color: #21313f;
 }
 
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
+}
+
 .dark-mode .bg-light,
 .dark-mode .offcanvas,
 .dark-mode .last-section,
