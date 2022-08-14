@@ -40,10 +40,9 @@ def forgetPassword(request):
 
 
 #  Restricted Pages
+def auth(request):
+    return render(request, 'auth.html')
 
-
-def homepage(request):
-     return render(request, 'homepage.html')  
 
 
 def drafts(request):
