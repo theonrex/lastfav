@@ -2,13 +2,19 @@
 body {
   font-family: "DM Sans", "sans-serif";
   color: #000;
-  background-color: rgba(255, 253, 253, 0.267);
+  background-color: rgb(255, 253, 253);
 }
 
 .dark-mode .home-nav-bg,
 .dark-mode .first-section,
 .dark-mode .nav-light-bg {
   background-color: #21313f;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none !important;
 }
 
 .dark-mode .bg-light,

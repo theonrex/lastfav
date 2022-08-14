@@ -72,7 +72,7 @@ body {
 
 .dark-mode .footer-bg,
 .dark-mode footer {
-  background-image: url(../images/Vectordark.png);
+  background-image: url("../images/Vectordark.cf2a995c73d5.png");
 }
 
 .dark-mode .form-style {
@@ -315,7 +315,7 @@ svg {
   top: 75%;
   bottom: 0;
   background-repeat: no-repeat;
-  background-image: url(../images/Horizontal.png);
+  background-image: url("../images/Horizontal.1c53e5cdbcbe.png");
 }
 
 .start-btn {
@@ -1155,7 +1155,7 @@ main {
 }
 
 footer {
-  background-image: url(../images/Vectorlight.png);
+  background-image: url("../images/Vectorlight.c5da864a0cd1.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1165,7 +1165,7 @@ footer {
 }
 
 .footer-bg {
-  background-image: url(../images/Vectorlight.png);
+  background-image: url("../images/Vectorlight.c5da864a0cd1.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
